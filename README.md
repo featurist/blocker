@@ -1,10 +1,10 @@
 # Blocker
 
-A little HTTP proxy that blocks access to external URLs based on regular expressions. Plug a browser or other HTTP client into blocker to 'short-curcuit' requests to particular URLs.
+A little HTTP proxy that blocks access to external URLs based on regular expressions.
 
 ### Why?
 
-Sometimes you want to stop your web browser or other client from downloading or executing content from particular URLs.
+Sometimes you want to stop your web browser or other client from downloading content or executing scripts from particular URLs, because it's faster.
 
 ### Install
 
