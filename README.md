@@ -4,7 +4,7 @@ A little HTTP proxy that blocks access to external URLs based on regular express
 
 ### Why?
 
-Because web pages load faster by blocking requests to third-party domains, static assets, particular scripts, etc.
+Sometimes you want to stop your web browser or other client from downloading or executing content from particular URLs.
 
 ### Install
 
@@ -18,10 +18,10 @@ Because web pages load faster by blocking requests to third-party domains, stati
 
     proxy = Blocker::Proxy.new /418/
     proxy.start
-    
+
     # curl --proxy 127.0.0.1:9876 httpbin.org/status/200
     # curl --proxy 127.0.0.1:9876 httpbin.org/status/418
-    
+
     proxy.stop
 
 ### License
